@@ -1,23 +1,21 @@
 import logo from './logo.svg';
 import './App.css';
 
+import ClockFun from './components/clockFunction/ClockFun'
+import CounterParent from './components/counterFunc/CounterParent'
+import Clock2 from './components/clock2/Clock2'
+import Pagination from './components/pagination/pagination'
+import ParentTable from './components/tablematrix/ParentTable'
+
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+        {/* <ClockFun /> */}
+        <CounterParent />
+        {/* <Clock2 /> */}
+        {/* <Pagination /> */}
+        {/* <ParentTable /> */}
+
     </div>
   );
 }
